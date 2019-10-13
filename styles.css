@@ -8,6 +8,7 @@
 
 #about-tagline {
     text-align: center;
+
 }
 
 #about-social-media {
@@ -16,9 +17,15 @@
     justify-content: space-evenly;
     margin-top: 1rem;
     width: 50%;
+}
 
-    #testimonials {}
+.social-media-icon {
+    width: 2rem;
+    height: 2rem;
+}
 
-    #projects {}
+#testimonials {}
 
-    #contacts {}
+#projects {}
+
+#contacts {}
