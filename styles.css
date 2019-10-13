@@ -1,7 +1,24 @@
 #about {}
 
-#testimonials {}
+.about-name {
+    font-family:
+        font-size: 5rem;
+    text-align: center;
+}
 
-#projects {}
+#about-tagline {
+    text-align: center;
+}
 
-#contacts {}
+#about-social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    width: 50%;
+
+    #testimonials {}
+
+    #projects {}
+
+    #contacts {}
