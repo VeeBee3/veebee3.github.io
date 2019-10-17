@@ -13,31 +13,28 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
             aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-link" href="#about">Vanessa M Bartley</a>
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <a style="text-decoration: none; color: white;" class="navbar-link" href="#about">Vanessa M Bartley</a>
+            <ul class="navbar-nav ml-auto justify-content-end">
                 <li class="nav-item active">
                     <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#testimonials">Testimonials <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#testimonials">Airbnb Reviews<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
+                    <a style="color:white" class="nav-link" href="#projects">Web DevProjects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
+                    <a style="color:white" class="nav-link" href="#contact" tabindex="-1"
+                        aria-disabled="true">Contact</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
         </div>
     </nav>
     <section id="about">
@@ -47,7 +44,7 @@
         <p class="about-name">
             <h1>I'm Vanessa</h1>
         </p>
-        <p id="about-tagline">You can call me Vee. I'm a Web Developer an Airbnb Host and a Butterfly.</p>
+        <p id="about-tagline">You can call me Vee. I'm a Web Developer and an Airbnb Host.</p>
         <div id="about-social-media">
             <a href="https://www.facebook.com/House-on-the-Hill-173269039974905/"><img
                     src="resources/Facebook_icon_2013.svg.png" class="social-media-icon"></a>
@@ -58,7 +55,9 @@
         </div>
     </section>
     <section id="testimonials">
-        <h2 class="section-header">Testimonials</h2>
+        <div class="section-header">
+            <h2>Testimonials</h2>
+        </div>
         <div class="section-carousel">
             <div id="testimonials-container">
                 <div class="card" style="width: 18rem;">
@@ -112,8 +111,21 @@
             </div>
         </div>
     </section>
+    <section id="contact">
+        <h2>
+            <div class="section-header"> Work With Vee</div>
+        </h2>
+        <div id="contact-container">
+
+            <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSdB3mBBtNOu6fZcwTdzh3Hd3DLQ1COy6__C_68RjVaRyWZkFw/viewform?embedded=true"
+                width="640" height="1146" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+    </section>
     <section id="projects">
-        <h2>Projects</h2>
+        <div class="section-header">
+            <h2>Projects</h2>
+        </div>
         <div class="section-carousel">
             <div id="projects-container">
                 <div class="card" style="width: 18rem;">
@@ -159,16 +171,6 @@
             </div>
         </div>
     </section>
-    <section id="contact">
-        <h2> Work With Vee </h2>
-        <div id="contact-container">
-
-            <iframe
-                src="https://docs.google.com/forms/d/e/1FAIpQLSdB3mBBtNOu6fZcwTdzh3Hd3DLQ1COy6__C_68RjVaRyWZkFw/viewform?embedded=true"
-                width="640" height="1146" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        </div>
-    </section>
-
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
